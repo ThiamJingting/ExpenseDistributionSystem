@@ -1,0 +1,573 @@
+img{
+    float: right;
+    width: 1.5em;
+    height: 1.5em;
+    margin-right: 0.5em;
+}
+
+select#exp_id{
+    font-size: 1em;
+    border-radius: 0.5em;
+    font-family: Arial;
+}
+
+label#exp_id{
+    font-weight: bold;
+    font-size:1.2em;
+    font-family: Arial;
+}
+
+textarea{
+    font-size:1.3em;
+    margin-top: 0.5em;
+    float: right;
+    width: 100%;
+    border-radius: 0.5em;
+    font-family: Arial;
+}
+
+div{
+    float: right;
+    margin-top: 0.5em;
+    width: 100%;
+}
+
+select#types, select#currency, 
+select#m1, select#currency1,
+select#m2, select#currency2,
+select#m3, select#currency3,
+select#m4, select#currency4,
+select#m5, select#currency5,
+select#m6, select#currency6,
+select#m7, select#currency7
+{
+    float: right;
+    font-size: 1.15em;
+    border-radius: 0.5em;
+    margin-right: 0.5em;
+    font-family: Arial;
+}
+
+input{
+    font-size: 1.15em;
+    float: right;
+    border-radius: 0.5em;
+    margin-right: 0.5em;
+    font-family: Arial;
+}
+
+input#pay1, input#sgdeqv, input#pay2, input#pay3, input#pay4, input#pay5, input#pay6, input#pay7{
+    background-color: lightgray;
+    font-family: Arial;
+}
+
+label#sgdeqv, label#pay,
+label#pay2, label#pay3,
+label#pay4, label#pay5, label#6, label#pay7{
+    font-size: 1.15em;
+    float: right;
+    margin-right: 0.5em;
+    font-family: Arial;
+}
+
+label#date, label#tAmt,
+label#xChange, label#youpay1, label#youpay2,
+label#youpay3, label#p4, label#youpay4, label#youpay5, label#youpay6, label#youpay7,
+label#portion1,label#portion2,label#portion3,
+label#portion4,label#portion5,label#portion6,
+label#portion7{
+    font-size: 1.15em;
+    float: right;
+    margin-right: 0.5em;
+    font-family: Arial;
+
+}
+
+label#m1, label#m2, label#m3 ,label#m4, label#m5, label#m6, label#m7{
+    float: right;
+    font-size: 1.15em; 
+    color: darkblue;
+    font-family: Arial;
+}
+
+p{
+    display:none;
+}
+/* ----------- iPad 1, 2, Mini and Air ----------- */
+
+/* Portrait */
+@media only screen 
+and (min-device-width: 768px) 
+and (max-device-width: 1024px) 
+and (orientation: portrait) 
+and (-webkit-min-device-pixel-ratio: 1) {
+    img{
+        float: right;
+        width: 2.5em;
+        height: 2.5em;
+        margin-right: 0.5em;
+    }
+
+    select#exp_id{
+        font-size: 2em;
+        border-radius: 0.5em;
+        font-family: Arial;
+    }
+
+    label#exp_id{
+        font-weight: bold;
+        font-size:1.2em;
+        font-family: Arial;
+    }
+
+    textarea{
+        font-size:1.3em;
+        margin-top: 0.5em;
+        float: right;
+        width: 100%;
+        border-radius: 0.5em;
+        font-family: Arial;
+    }
+
+    div{
+        float: right;
+        margin-top: 0.5em;
+        width: 100%;
+    }
+
+    select#types, select#currency, 
+    select#m1, select#currency1,
+    select#m2, select#currency2,
+    select#m3, select#currency3,
+    select#m4, select#currency4
+    {
+        float: right;
+        font-size: 1.15em;
+        border-radius: 0.5em;
+        margin-right: 0.5em;
+        font-family: Arial;
+    }
+
+    input{
+        font-size: 1.15em;
+        float: right;
+        border-radius: 0.5em;
+        margin-right: 0.5em;
+        font-family: Arial;
+    }
+
+    input#pay1, input#sgdeqv, input#pay2, input#pay3, input#pay4,input#pay5, input#pay6, input#pay7{
+        background-color: lightgray;
+        font-family: Arial;
+    }
+
+    label#sgdeqv, label#pay,
+    label#pay2, label#pay3,
+    label#pay4, label#pay5, label#6, label#pay7{
+        font-size: 1.15em;
+        float: right;
+        margin-right: 0.5em;
+        font-family: Arial;
+    }
+
+    label#m1, label#m2, label#m3 ,label#m4, label#m5, label#m6 ,label#m7{
+        float: right;
+        font-size: 1.15em; 
+        color: darkblue;
+        font-family: Arial;
+    }
+
+    p{
+        display:none;
+    }
+}
+
+/* Landscape */
+@media only screen 
+and (min-device-width: 768px) 
+and (max-device-width: 1024px) 
+and (orientation: landscape) 
+and (-webkit-min-device-pixel-ratio: 1) {
+    div#member1, div#member2, div#member3, div#member4, div#member5, div#member6, div#member7, div#buttons{
+        display: none;
+    }
+
+    p{
+        font-size: 3em;
+        display: inline;
+        font-family: Arial;
+    }
+}
+
+/* ----------- iPad 3, 4 and Pro 9.7" ----------- */
+
+/* Portrait */
+@media only screen 
+and (min-device-width: 768px) 
+and (max-device-width: 1024px) 
+and (orientation: portrait) 
+and (-webkit-min-device-pixel-ratio: 2) {
+    img{
+        float: right;
+        width: 1.9em;
+        height: 1.9em;
+        margin-right: 0.5em;
+    }
+
+    select#exp_id{
+        font-size: 1.3em;
+        border-radius: 0.5em;
+        font-family: Arial;
+    }
+
+    label#exp_id{
+        font-weight: bold;
+        font-size:1.5em;
+        font-family: Arial;
+    }
+
+    textarea{
+        font-size:1.6em;
+        margin-top: 0.5em;
+        float: right;
+        width: 100%;
+        border-radius: 0.5em;
+        font-family: Arial;
+    }
+
+    div{
+        float: right;
+        margin-top: 0.5em;
+        width: 100%;
+    }
+
+    select#types, select#currency, 
+    select#m1, select#currency1,
+    select#m2, select#currency2,
+    select#m3, select#currency3,
+    select#m4, select#currency4,
+    select#m5, select#currency5,
+    select#m6, select#currency6,
+    select#m7, select#currency7
+    {
+        float: right;
+        font-size: 1.5em;
+        border-radius: 0.5em;
+        margin-right: 0.5em;
+        font-family: Arial;
+    }
+
+    input{
+        font-size: 1.5em;
+        float: right;
+        border-radius: 0.5em;
+        margin-right: 0.5em;
+        font-family: Arial;
+    }
+
+    input#pay1, input#sgdeqv, input#pay2, input#pay3, input#pay4, input#pay5, input#pay6, input#pay7{
+        background-color: lightgray;
+        font-family: Arial;
+    }
+
+    label#sgdeqv, label#pay,
+    label#pay2, label#pay3,
+    label#pay4, label#pay5, label#pay6, label#pay7{
+        font-size: 1.5em;
+        float: right;
+        margin-right: 0.5em;
+        font-family: Arial;
+    }
+
+    label#m1, label#m2, label#m3 ,label#m4, label#m5, label#m6 ,label#m7{
+        float: right;
+        font-size: 1.5em; 
+        color: darkblue;
+        font-family: Arial;
+    }
+
+    p{
+        display:none;
+    }
+}
+
+/* Landscape */
+@media only screen 
+and (min-device-width: 1023px) 
+and (max-device-width: 1366px) 
+and (orientation: landscape) 
+and (-webkit-min-device-pixel-ratio: 2) {
+    div#member1, div#member2, div#member3, div#member4, div#member5, div#member6, div#member7, div#buttons{
+        display: none;
+    }
+
+    p{
+        font-size: 3em;
+        display: inline;
+        font-family: Arial;
+    }
+}
+/* Samsung Galaxy S5 ----------- */
+/*@media only screen and (min-device-width: 361px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+     Styles 
+    div#member1, div#member2, div#member3, div#member4, div#buttons{
+        display: none;
+    }
+
+    p{
+        font-size: 50px;
+        display: inline;
+    }
+}
+
+@media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+     Styles 
+    img{
+        float: right;
+        width: 25px;
+        height: 25x;
+        margin-right: 10px;
+    }
+
+    select#exp_id{
+        font-size: 15px;
+        border-radius: 10px;
+    }
+    label#exp_id{
+        font-weight: bold;
+        font-size:15px;
+    }
+
+    textarea{
+        font-size:15px;
+        margin-top: 10px;
+        float: right;
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    div{
+        float: right;
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    select#types, select#currency, 
+    select#m1, select#currency1,
+    select#m2, select#currency2,
+    select#m3, select#currency3,
+    select#m4, select#currency4
+    {
+        float: right;
+        font-size: 15px;
+        border-radius: 10px;
+        margin-right: 10px;
+    }
+
+    input{
+        font-size: 15px;
+        float: right;
+        border-radius: 10px;
+        margin-right: 10px;
+    }
+
+    label#sgdeqv, label#pay,
+    label#pay2, label#pay3,
+    label#pay4{
+        font-size: 15px;
+        float: right;
+        margin-right: 10px;
+    }
+
+    label#m1, label#m2, label#m3 ,label#m4{
+        float: right;
+        font-size: 15px; 
+        color: orange;
+    }
+
+    input#pay1, input#sgdeqv, input#pay2, input#pay3, input#pay4{
+        background-color: lightgray;
+    }
+
+    p{
+        display:none;
+    }
+
+}*/
+
+
+/* Desktops and laptops ----------- */
+@media only screen  and (min-width : 1400px) {
+    /* Styles */
+    img{
+        float: right;
+        width: 35px;
+        height: 35px;
+        margin-right: 10px;
+    }
+
+    select#exp_id{
+        font-size: 20px;
+        border-radius: 10px;
+        font-family: Arial;
+    }
+
+    label#exp_id{
+        font-weight: bold;
+        font-size:20px;
+        font-family: Arial;
+    }
+
+    textarea{
+        font-size:20px;
+        margin-top: 10px;
+        float: right;
+        width: 100%;
+        border-radius: 10px;
+        font-family: Arial;
+    }
+
+    div{
+        float: right;
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    select#types, select#currency, 
+    select#m1, select#currency1,
+    select#m2, select#currency2,
+    select#m3, select#currency3,
+    select#m4, select#currency4,
+    select#m5, select#currency5,
+    select#m6, select#currency6,
+    select#m7, select#currency7
+    {
+        float: right;
+        font-size: 20px;
+        border-radius: 10px;
+        margin-right: 10px;
+        font-family: Arial;
+    }
+
+    input{
+        font-size: 20px;
+        float: right;
+        border-radius: 10px;
+        margin-right: 10px;
+        font-family: Arial;
+    }
+
+    input#pay1, input#sgdeqv, input#pay2, input#pay3, input#pay4, input#pay5, input#pay6, input#pay7{
+        background-color: lightgray;
+        font-family: Arial;
+    }
+
+    label#sgdeqv, label#pay,
+    label#pay2, label#pay3,
+    label#pay4, label#pay5, label#6, label#pay7{
+        font-size: 20px;
+        float: right;
+        margin-right: 10px;
+        font-family: Arial;
+    }
+
+    label#m1, label#m2, label#m3 ,label#m4, label#m5, label#m6 ,label#m7{
+        float: right;
+        font-size: 20px; 
+        color: darkblue;
+        font-family: Arial;
+    }
+
+    p{
+        display:none;
+    }
+}
+
+/* Large screens ----------- */
+@media only screen  and (min-width : 1824px) {
+    /* Styles */
+    img{
+        float: right;
+        width: 25px;
+        height: 25px;
+        margin-right: 10px;
+    }
+
+    select#exp_id{
+        font-size: 15px;
+        border-radius: 10px;
+        font-family: Arial;
+    }
+
+    label#exp_id{
+        font-weight: bold;
+        font-size:15px;
+        font-family: Arial;
+    }
+
+    textarea{
+        font-size:15px;
+        margin-top: 10px;
+        float: right;
+        width: 100%;
+        border-radius: 10px;
+        font-family: Arial;
+    }
+
+    div{
+        float: right;
+        margin-top: 10px;
+        width: 100%;
+        font-family: Arial;
+    }
+
+    select#types, select#currency, 
+    select#m1, select#currency1,
+    select#m2, select#currency2,
+    select#m3, select#currency3,
+    select#m4, select#currency4,
+    select#m5, select#currency5,
+    select#m6, select#currency6,
+    select#m7, select#currency7
+    {
+        float: right;
+        font-size: 15px;
+        border-radius: 10px;
+        margin-right: 10px;
+        font-family: Arial;
+    }
+
+    input{
+        font-size: 15px;
+        float: right;
+        border-radius: 10px;
+        margin-right: 10px;
+        font-family: Arial;
+    }
+
+    input#pay1, input#sgdeqv, input#pay2, input#pay3, input#pay4,input#pay5, input#pay6, input#pay7{
+        background-color: lightgray;
+        font-family: Arial;
+    }
+
+    label#sgdeqv, label#pay,
+    label#pay2, label#pay3,
+    label#pay4, label#pay5, label#6, label#pay7{
+        font-size: 15px;
+        float: right;
+        margin-right: 10px;
+        font-family: Arial;
+    }
+
+    label#m1, label#m2, label#m3 ,label#m4 , label#m5, label#m6 ,label#m7{
+        float: right;
+        font-size: 15px; 
+        color: darkblue;
+        font-family: Arial;
+    }
+
+    p{
+        display:none;
+    }
+
+}
